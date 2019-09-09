@@ -121,7 +121,7 @@ export default class AnimakitExpander extends Component {
 
     if (!animation && !prepare && !this.props.children) return {};
 
-    const position = 'relative';
+    const position = 'static';
     const overflow = 'hidden';
     const horizontal = this.props.horizontal;
 
